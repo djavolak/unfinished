@@ -60,7 +60,7 @@ class ContactAction
 
     protected function sendMail(Request $request)
     {
-        $to = 'djavolak@mail.ru';
+        $to = 'pr@phpsrb';
         $subject = 'phpsrbija.rs :: Nova poruka sa kontakt forme';
         $body = 'Naslov poruke:' . PHP_EOL;
         $body .= $request->getAttribute('subject') . PHP_EOL;
